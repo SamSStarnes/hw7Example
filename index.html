@@ -3,10 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/5bce380351.js" 
+        crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="stylesheet.css" />
     </head>
     <body>
+        <div id="container"></div>
+        <h1>Welcome</h1>
+        <p>Thank you for participating in our survey.</p>
+        <p>Please click the button below to begin the survey.<i class="fa-regular fa-heart"></i></p>
+        <p>
+            YOUR QUESTION HERE
+                <span class="tooltip">
+                <i class="fa-solid fa-circle-info fontawesome"></i>
+            <span class="tooltip tooltiptext">the quantity of each item you purchased * the price of each item purchased * sales tax</span>
+                </span>
+            </p>
+            </p>
+        </p>
+        <fieldset>
+            <legend> I identify as </legend>
+            <label for="running">
+                <input type="checkbox" id="running" name="gender" value ="running"> Running
+            </label>    
+            <label for="biking">
+                <input type="checkbox" id="biking" name="gender" value="biking"> Biking
+            </label>
+            <label for="reading">
+                <input type="checkbox" id="reading" name="gender" value="reading"> Reading
+            </label>
+        </fieldset>
         <button onclick="window.location.href='sstarnes_p1.html';">
             Start survey
-          </button>
+        </button>
     </body>
 </html>
